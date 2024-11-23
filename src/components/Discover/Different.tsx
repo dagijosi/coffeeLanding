@@ -25,7 +25,6 @@ const Different: React.FC = () => {
                             <div className={"flex items-center justify-center"}>
                                 {item.icon}
                             </div>
-
                         }
                     >
                         <div>
