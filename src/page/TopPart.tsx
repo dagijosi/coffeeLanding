@@ -30,8 +30,9 @@ const TopPart: React.FC = () => {
         }
         classNames={{
           brandClassName: "font-clicker text-2xl md:text-3xl",
-          linkClassName: "text-sm hover:text-[#feb850]",
+          linkClassName: "text-sm hover:text-[#feb850] hover:border-[#feb850]",
           linksWrapperClassName: "gap-4 lg:gap-10",
+          drawerClassName:"bg-black/90",
         }}
       />
         <Description/>

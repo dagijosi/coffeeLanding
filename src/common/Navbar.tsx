@@ -10,6 +10,7 @@ type ClassNames = {
   linkClassName?: string;
   startContentClassName?: string;
   endContentClassName?: string;
+  drawerClassName?: string;
 };
 
 interface NavbarProps {
@@ -145,7 +146,7 @@ const Navbar: React.FC<NavbarProps> = ({
           isOpen={isOpen}
           onClose={() => toggleMenu()}
           closeIcon={<IoIosCloseCircleOutline className="text-3xl ml-4" />}
-          className={cn("px-4 h-screen", background, textColor, className)}
+          className={cn("px-4 h-screen", background, textColor, className,classNames?.drawerClassName)}
         >
           <div className={cn("space-y-6", classNames?.startContentClassName)}>
             <span

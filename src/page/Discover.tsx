@@ -30,7 +30,7 @@ const Discover: React.FC = () => {
                 <img
                     src="/image/coffee_blast.png"
                     alt="blast"
-                    className="w-[15rem] md:w-[20rem] h-auto md:h-[10rem] object-cover absolute -bottom-4 md:bottom-0"
+                    className="w-[15rem] md:w-[20rem] h-auto md:h-[10rem] object-cover absolute -bottom-4 md:bottom-0 hidden md:block"
                 />
             </div>
             <Explore/>
