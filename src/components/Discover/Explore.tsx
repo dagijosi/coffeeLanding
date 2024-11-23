@@ -46,7 +46,7 @@ const Explore: React.FC = () => {
             <h1 className="font-playfair text-base md:text-lg text-[#707070]">
                 Explore all flavours of coffee with us. There is always a new cup worth experiencing
             </h1>
-            <div className={"md:flex space-y-4 md:space-y-0 p-6 md:gap-4 items-center justify-center"}>
+            <div className={"md:flex space-y-6 md:space-y-0 p-6 md:gap-4 items-center justify-center"}>
                 {cardData?.map((item, index) => (
                     <Card
                         key={index}

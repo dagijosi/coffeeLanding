@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../common/Button";
 import Explore from "../components/Discover/Explore";
+import Different from "../components/Discover/Different";
 
 const Discover: React.FC = () => {
     return (
@@ -34,6 +35,7 @@ const Discover: React.FC = () => {
                 />
             </div>
             <Explore/>
+            <Different/>
         </div>
     );
 };
